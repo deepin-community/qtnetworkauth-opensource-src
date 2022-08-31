@@ -1,0 +1,80 @@
+Source: qtnetworkauth-opensource-src
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Uploaders: Deepin Packages Builder <packages@deepin.org>
+Section: libs
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.15.3~),
+               qtbase5-private-dev (>= 5.15.3~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.3~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.3~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.3~) <!nodoc>
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://doc.qt.io/qt-5/qtnetworkauth-index.html
+
+Package: qtnetworkauth5-doc
+Build-Profiles: <!nodoc>
+Architecture: all
+Multi-Arch: foreign
+Section: doc
+Depends: ${misc:Depends}
+Description: online account access for Qt apps - documentation
+ Qt Network Authorization provides a set of APIs that enable Qt
+ applications to obtain limited access to online accounts and HTTP
+ services without exposing users' passwords.
+ .
+ This package contains the documentation for QtNetworkAuth.
+
+Package: qtnetworkauth5-doc-html
+Build-Profiles: <!nodoc>
+Architecture: all
+Multi-Arch: foreign
+Section: doc
+Depends: ${misc:Depends}
+Description: online account access for Qt apps - HTML Documentation
+ Qt Network Authorization provides a set of APIs that enable Qt
+ applications to obtain limited access to online accounts and HTTP
+ services without exposing users' passwords.
+ .
+ This package contains the HTML documentation for QtNetworkAuth.
+
+Package: libqt5networkauth5-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libqt5networkauth5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Description: online account access for Qt apps - Development Files
+ Qt Network Authorization provides a set of APIs that enable Qt
+ applications to obtain limited access to online accounts and HTTP
+ services without exposing users' passwords.
+ .
+ This package contains the development files needed to build Qt 5 applications
+ using the QtNetworkAuth library.
+
+Package: qtnetworkauth5-examples
+Architecture: any
+Multi-Arch: same
+Depends: libqt5networkauth5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: online account access for Qt apps - Examples
+ Qt Network Authorization provides a set of APIs that enable Qt
+ applications to obtain limited access to online accounts and HTTP
+ services without exposing users' passwords.
+ .
+ This package contains the examples for Qt's NetworkAuth submodule.
+
+Package: libqt5networkauth5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: online account access for Qt apps - Library
+ Qt Network Authorization provides a set of APIs that enable Qt
+ applications to obtain limited access to online accounts and HTTP
+ services without exposing users' passwords.
+ .
+ This package contains the QtNetworkAuth libraries.

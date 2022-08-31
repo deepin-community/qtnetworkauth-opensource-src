@@ -1,0 +1,3 @@
+doc/
+src/oauth/codeattributions.qdoc
+src/oauth/QtNetworkAuth.version.in
