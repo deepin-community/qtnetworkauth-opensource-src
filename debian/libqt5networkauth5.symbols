@@ -18,7 +18,7 @@ libQt5NetworkAuth.so.5 libqt5networkauth5 #MINVER#
  Qt_5.8@Qt_5.8 5.11.2
  Qt_5.9@Qt_5.9 5.11.2
  Qt_5@Qt_5 5.11.2
- Qt_5_PRIVATE_API@Qt_5_PRIVATE_API 5.11.2
+ (symver)Qt_5_PRIVATE_API 0
  _ZN14QAbstractOAuth11qt_metacallEN11QMetaObject4CallEiPPv@Qt_5 5.11.2
  _ZN14QAbstractOAuth11qt_metacastEPKc@Qt_5 5.11.2
  _ZN14QAbstractOAuth12tokenChangedERK7QString@Qt_5 5.11.2
@@ -44,8 +44,6 @@ libQt5NetworkAuth.so.5 libqt5networkauth5 #MINVER#
  _ZN14QAbstractOAuth8finishedEP13QNetworkReply@Qt_5 5.11.2
  _ZN14QAbstractOAuth8setTokenERK7QString@Qt_5 5.11.2
  _ZN14QAbstractOAuth9setStatusENS_6StatusE@Qt_5 5.11.2
- _ZN14QAbstractOAuthC1ER21QAbstractOAuthPrivateP7QObject@Qt_5_PRIVATE_API 5.11.2
- _ZN14QAbstractOAuthC2ER21QAbstractOAuthPrivateP7QObject@Qt_5_PRIVATE_API 5.11.2
  _ZN14QAbstractOAuthD0Ev@Qt_5 5.11.2
  _ZN14QAbstractOAuthD1Ev@Qt_5 5.11.2
  _ZN14QAbstractOAuthD2Ev@Qt_5 5.11.2
@@ -254,8 +252,8 @@ libQt5NetworkAuth.so.5 libqt5networkauth5 #MINVER#
  _ZNK7QOAuth118clientSharedSecretEv@Qt_5 5.11.2
  _ZNK7QOAuth119tokenCredentialsUrlEv@Qt_5 5.11.2
  _ZNK7QOAuth123temporaryCredentialsUrlEv@Qt_5 5.11.2
- (optional=templinst|subst|arch=!armel !armhf !hppa !i386 !m68k !mipsel !powerpc !sh4 !x32)_ZNSt23mersenne_twister_engineI{size_t}L{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31EL{size_t}2567483615EL{size_t}11EL{size_t}4294967295EL{size_t}7EL{size_t}2636928640EL{size_t}15EL{size_t}4022730752EL{size_t}18EL{size_t}1812433253EEclEv@Qt_5 5.11.2
- (optional=templinst)_ZNSt24uniform_int_distributionIiEclISt23mersenne_twister_engineImLm32ELm624ELm397ELm31ELm2567483615ELm11ELm4294967295ELm7ELm2636928640ELm15ELm4022730752ELm18ELm1812433253EEEEiRT_RKNS0_10param_typeE@Qt_5 5.15.3
+ (optional=templinst|subst)_ZNSt23mersenne_twister_engineI{size_t}L{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31EL{size_t}2567483615EL{size_t}11EL{size_t}4294967295EL{size_t}7EL{size_t}2636928640EL{size_t}15EL{size_t}4022730752EL{size_t}18EL{size_t}1812433253EE11_M_gen_randEv@Qt_5 5.15.1
+ (optional=templinst|subst)_ZNSt23mersenne_twister_engineI{size_t}L{size_t}32EL{size_t}624EL{size_t}397EL{size_t}31EL{size_t}2567483615EL{size_t}11EL{size_t}4294967295EL{size_t}7EL{size_t}2636928640EL{size_t}15EL{size_t}4022730752EL{size_t}18EL{size_t}1812433253EEclEv@Qt_5 5.11.2
  _ZTI14QAbstractOAuth@Qt_5 5.11.2
  _ZTI15QAbstractOAuth2@Qt_5 5.11.2
  _ZTI21QOAuthOobReplyHandler@Qt_5 5.11.2
